@@ -58,8 +58,14 @@ h1{
     color: var(--color-beau-blue);
 }
 
+.blue-background-gradiant{
+    background-color:  radial-gradient(at top, blue 0%, var(--color-beau-blue) 100%);
+}
 
 
+.center-text{
+    text-align: center;
+}
 
 /* 
 3E5641 hunter green
