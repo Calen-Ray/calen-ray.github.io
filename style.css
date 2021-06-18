@@ -2,6 +2,8 @@ h1{
     color:red;
 }
 
+
+
 :root{
     --color-hunter-green: #3E5641;
     --color-chestnut: #A24936;
@@ -10,6 +12,15 @@ h1{
     --color-charleston-green:#282B28 ;
     --color-green-sheen: #83BCA9;
 }
+
+.profile-photo{
+    border-radius: 200px;
+    box-shadow: 5px 5px 5px;
+    height: 150px;
+    width: 150px;
+    transform: translateX(40px);
+}
+
 
 /*  */
 .hunter-green-background{
@@ -110,7 +121,7 @@ C2A83E gold metallic
         content: "A tester";
     }
     60%{
-        content: "Software Engineer";
+        content: "Junior Software Engineer";
     }
     70%{
         content: "Solution expert";
@@ -125,3 +136,4 @@ C2A83E gold metallic
          content: "Efficient";
      }
  }
+
