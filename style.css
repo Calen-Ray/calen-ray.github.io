@@ -62,3 +62,12 @@ header hr{
     font-weight: 300;
     margin: 25px 0px 25px 0px;
 }
+
+@media screen and (max-width: 720px) {
+
+    
+.about-me h3{
+    font-size: 0.85rem;
+}
+    
+}
