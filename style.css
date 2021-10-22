@@ -8,3 +8,19 @@ header {
     background-attachment: scroll;
     background-size: cover;
 }
+
+
+/* 
+
+#fe6f27
+#e71989
+
+*/
+
+nav{
+    background-color: #fe6f27    ;
+}
+
+nav .navbar-brand{
+    font-weight: 900;
+}
