@@ -17,10 +17,37 @@ header {
 
 */
 
+
+
+/* Nav */
 nav{
     background-color: #fe6f27    ;
 }
 
 nav .navbar-brand{
     font-weight: 900;
+}
+
+
+
+
+/* Header  */
+header p{
+    color: rgba(255, 255, 255, 0.80);
+}
+
+header hr{
+    color: #fe6f27;    
+}
+
+
+
+
+
+/* About */
+about-me{
+    background-color: #fe6f27;
+    min-height: fit-content;
+    height: 200px;
+
 }
