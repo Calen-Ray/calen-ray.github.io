@@ -45,9 +45,20 @@ header hr{
 
 
 /* About */
-about-me{
+.about-me {
     background-color: #fe6f27;
     min-height: fit-content;
-    height: 200px;
+    /* height: 200px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
 
+.about-me h3{
+    white-space: pre;
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin: 25px 0px 25px 0px;
 }
