@@ -48,6 +48,7 @@ header hr{
 .about-me {
     background-color: #fe6f27;
     min-height: fit-content;
+    max-height: 17rem;
     /* height: 200px; */
     display: flex;
     justify-content: center;
@@ -57,17 +58,65 @@ header hr{
 }
 
 .about-me h3{
-    white-space: pre;
+    /* white-space: pre; */
     font-size: 1.25rem;
     font-weight: 300;
     margin: 25px 0px 25px 0px;
+}
+
+.about-me img{
+    height: 20rem;
+    border-radius: 10000px;
+    overflow: visible;
+    border: 5px solid white;
+    margin-right: 50px;
+}
+.about-me h3 p{
+    margin-bottom: 0px;
 }
 
 @media screen and (max-width: 720px) {
 
     
 .about-me h3{
-    font-size: 0.85rem;
+    font-size: 01rem;
+}
+
+
+
+}
+
+/* this will assist with photo adjustment about-me */
+@media screen and (max-width: 1130px) {
+
+    
+.about-me h3{
+    margin-top: 4rem;
+    font-size: 1rem;
+
+}
+
+.about-me img{
+    height: 12rem;
+    border-radius: 10000px;
+    overflow: visible;
+    border: 5px solid white;
+    margin-right: 0px;
+
+    
+}
+
+.about-me {
+    background-color: #fe6f27;
+    min-height: fit-content;
+    max-height: 18rem;
+    /* height: 200px; */
+    display: flex;
+    flex-direction:column-reverse;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
 }
     
 }
