@@ -42,6 +42,121 @@ header hr{
 
 
 
+/* skills */
+skills{
+    margin: 25px 20px 25px 20px;
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 1;
+    min-height: 15rem;
+
+}
+
+skills h3{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #fe6f27;
+}
+
+skills ul{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 0px;
+}
+
+skills li{
+    list-style: none;
+    font-size: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: .1s;
+}
+
+skills li:hover{
+    font-size: 4.5rem;
+    color: #fe6f27;
+    text-shadow: 4px 3px 19px black;
+    transition: .1s;
+    font-weight: 700;
+}
+
+skills p{
+    font-size: 1.2rem;
+}
+
+
+/* Animation sequence for skills */
+
+skills li {
+    animation-name: animateIn;
+    animation-duration: 350ms;
+    animation-delay: calc(var(--animation-order) * 100ms);
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+}
+
+
+/* projects */
+
+projects {
+    height: 400px;
+    background-color: #fe6f27;
+    width: 100vw;
+}
+
+projects h3{
+    text-align: center;
+    background-color: #fe6f27;
+    margin-bottom: 0px;
+    color: white;
+    padding: 25px 0px 25px 0px;
+}
+
+projects ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    list-style-type: none;
+    padding: 0px;
+    background-color: #fe6f27;
+}
+
+projects li{
+    filter: brightness(100%);
+
+}
+
+projects img{
+    width: 33vw;
+    height: 90%;
+    filter: brightness(60%);
+
+}
+
+projects p{
+    text-align: center;
+    font-weight: 600;
+    filter: brightness(100%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2rem;
+}
+
+
+@keyframes animateIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.6) translateY(-8px);
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
 
 
 /* About */
@@ -73,6 +188,7 @@ header hr{
 }
 .about-me h3 p{
     margin-bottom: 0px;
+    
 }
 
 @media screen and (max-width: 720px) {
@@ -87,9 +203,12 @@ header hr{
 }
 
 /* this will assist with photo adjustment about-me */
-@media screen and (max-width: 1130px) {
+@media screen and (max-width: 1199px) {
 
-    
+    header h1{
+        font-size: 2.2rem;
+    }
+
 .about-me h3{
     margin-top: 4rem;
     font-size: 1rem;
@@ -101,9 +220,7 @@ header hr{
     border-radius: 10000px;
     overflow: visible;
     border: 5px solid white;
-    margin-right: 0px;
-
-    
+    margin-right: 0px;    
 }
 
 .about-me {
@@ -120,3 +237,4 @@ header hr{
 }
     
 }
+
