@@ -101,9 +101,10 @@ skills li {
 /* projects */
 
 projects {
-    height: 400px;
+    min-height: 400px;
     background-color: #fe6f27;
     width: 100vw;
+    margin-bottom: 25px;
 }
 
 projects h3{
@@ -120,16 +121,19 @@ projects ul {
     list-style-type: none;
     padding: 0px;
     background-color: #fe6f27;
+    padding-bottom: 35px;
 }
 
 projects li{
     filter: brightness(100%);
+    width: 100%;
+
 
 }
 
 projects img{
-    width: 33vw;
-    height: 90%;
+    width: 100%;
+    height: 85%;
     filter: brightness(60%);
 
 }
@@ -202,8 +206,128 @@ projects p{
 
 }
 
+/* work history */
+
+work{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+work h3{
+    margin-bottom: 35px;
+
+}
+
+work ul{
+    list-style-type: none;
+    padding: 0px;
+}
+
+work li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+work .logo-img{
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+work p{
+    font-weight: 500;
+    font-size: 14px;
+}
+
+
+
+/* Contact section */
+
+.contact{
+    height: 100px;
+    width: 100vw;
+    background-color: #fe6f27;
+}
+
+
+.contact h3{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+.contact a{
+    color: white;
+}
+
+.contact h4{
+    text-align: center;
+}
+
+
+
+
 /* this will assist with photo adjustment about-me */
 @media screen and (max-width: 1199px) {
+
+    /* Skills */
+    skills{
+    }
+    
+    skills h3{
+    }
+    
+    skills ul{
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+    skills li{
+    }
+    
+    skills li:hover{
+    }
+    
+    skills p{
+    }
+
+
+    /* Projects */
+    
+projects {
+    margin-bottom: 25px;
+}
+
+projects h3{
+
+}
+
+projects ul {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+}
+
+projects li{
+    padding: 0px 15% 0px 15%;
+}
+
+projects img{
+    height: 100%;
+
+}
+
+projects p{
+
+}
+
+
+
+/* Header */
 
     header h1{
         font-size: 2.2rem;
